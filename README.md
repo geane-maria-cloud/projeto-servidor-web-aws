@@ -33,3 +33,11 @@ yum update -y
 yum install -y httpd
 systemctl start httpd
 systemctl enable httpd
+
+### 📸 Evidências do Laboratório
+
+**Configuração da Instância EC2:**
+![Instância AWS](aws.jpeg.jpg)
+
+**Aplicação Web Online:**
+![Site Funcionando](site.jpeg.jpg)
