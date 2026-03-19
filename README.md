@@ -1,32 +1,22 @@
-# Desafio AWS: Configuração de Servidor Web em Instância EC2 ☁️
+# ☁️ Desafio AWS: Configuração de Servidor Web em Instância EC2
 
-Este projeto demonstra a configuração de uma infraestrutura básica na AWS, incluindo redes virtuais e computação em nuvem, para hospedar uma aplicação web simples.
+Este projeto foi desenvolvido como parte do aprendizado em **Gestão de Tecnologia da Informação**. O objetivo foi implementar uma infraestrutura básica na AWS para hospedar uma página web simples.
 
-## 🚀 Objetivos do Desafio
-- Configurar uma rede virtual (VPC) com sub-rede e gateway de internet.
-- Lançar uma instância EC2 (Amazon Linux 2023).
-- Instalar e configurar um servidor web Apache (`httpd`) via script de automação (User Data).
-- Realizar o deploy de uma página HTML customizada.
+## 🚀 Tecnologias Utilizadas
+* **AWS EC2:** Instância Amazon Linux (Tipo T3).
+* **AWS VPC:** Configuração de rede virtual, sub-redes e internet gateway.
+* **Apache (httpd):** Servidor web para hospedar a aplicação.
+* **HTML5:** Estrutura da página de projetos.
 
-## 🛠️ Tecnologias Utilizadas
-- **Provedor de Nuvem:** AWS (Amazon Web Services)
-- **Serviços:** EC2, VPC, Security Groups, Internet Gateway.
-- **Sistema Operacional:** Amazon Linux 2023.
-- **Servidor Web:** Apache HTTP Server.
-- **Linguagens:** Bash (automação) e HTML5.
+## 🛠️ O que foi feito:
+1. Configuração de uma rede virtual segura (VPC).
+2. Lançamento de uma instância EC2 com IP público.
+3. Instalação automatizada do servidor Apache via User Data.
+4. Configuração de Security Groups para permitir acesso via portas 80 (HTTP) e 22 (SSH).
+5. Deploy do arquivo `projects.html` no diretório `/var/www/html`.
 
-## 📋 Passo a Passo Realizado
-
-### 1. Infraestrutura de Rede
-Criação de uma **VPC** dedicada com bloco CIDR `10.0.0.0/16`. Configurei um **Internet Gateway** e atualizei as tabelas de rotas para permitir o tráfego público (rota `0.0.0.0/0`).
-
-### 2. Segurança
-Configuração de um **Security Group** liberando as seguintes portas:
-- **Porta 80 (HTTP):** Para acesso público à página web.
-- **Porta 22 (SSH):** Para administração remota via terminal.
-
-### 3. Provisionamento da Instância
-Lançamento de uma instância `t3.micro`. Utilizei o campo **User Data** para automatizar a instalação do servidor no momento do boot:
+## 📂 Documentação
+As evidências de funcionamento (prints do log do sistema, acesso SSH e página online) estão anexadas no arquivo `projetos.html.pdf` neste repositório.do boot:
 ```bash
 #!/bin/bash
 yum update -y
