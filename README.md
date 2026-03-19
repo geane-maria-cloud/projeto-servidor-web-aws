@@ -32,11 +32,9 @@ Lançamento de uma instância **t3.micro**. Utilize o campo **User Data** para a
 Configuração da Instância EC2:
 Abaixo, o registro da instância Servidor-Web-Desafio ativa e configurada no console AWS.
 <img width="868" height="381" alt="aws" src="https://github.com/user-attachments/assets/db5f2ee7-a865-4b9f-ba45-46e47aabcd7c" />
-
 Aplicação Web Online:
 Visualização da página projetos.html rodando com sucesso através do IP público da instância.
 <img width="1077" height="677" alt="site" src="https://github.com/user-attachments/assets/cdc53f8f-97dc-4932-bec9-2ea52fc43df9" />
-
 
 ```bash
 #!/bin/bash
