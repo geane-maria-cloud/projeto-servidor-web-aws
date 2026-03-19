@@ -33,7 +33,8 @@ Abaixo, o registro da instância Servidor-Web-Desafio (ID: 00016956059512) ativa
 
 Aplicação Web Online:
 Visualização da página projetos.html rodando com sucesso através do IP público da instância.
-<img width="468" height="375" alt="imag" src="https://github.com/user-attachments/assets/82bc13e9-5c9c-4b26-9f82-f0918e419a2f" />
+<img width="864" height="373" alt="aws" src="https://github.com/user-attachments/assets/ee157626-8cf3-4c9a-8d4a-8de21da20a92" />
+<img width="854" height="342" alt="site" src="https://github.com/user-attachments/assets/d5ef501e-5590-4018-8848-45d2262d1ce4" />
 
 Laboratório realizado por Geane Maria como parte da transição de carreira para a área de Tecnologia da Informação.
 
