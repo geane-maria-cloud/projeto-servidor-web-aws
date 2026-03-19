@@ -1,4 +1,3 @@
-
 # ☁️ Desafio AWS: Configuração de Servidor Web em Instância EC2
 
 Este projeto demonstra a configuração de uma infraestrutura básica na AWS, incluindo redes e computação em nuvem, para hospedar uma aplicação web simples.
@@ -28,9 +27,18 @@ Configuração de um **Security Group** liberando as seguintes portas:
 
 ### 3. Provisionamento da Instância
 Lançamento de uma instância **t3.micro**. Utilize o campo **User Data** para automatizar a instalação do servidor no momento da inicialização:
+📸 Evidências do Laboratório
+Configuração da Instância EC2:
+Abaixo, o registro da instância Servidor-Web-Desafio ativa e configurada no console AWS.
+
+Aplicação Web Online:
+Visualização da página projetos.html rodando com sucesso através do IP público da instânc![site jpeg](https://github.com/user-attachments/assets/05384192-97eb-49c5-b918-214aa91a7cd4)
+ia.
+<img width="868" height="381" alt="aws" src="https://github.com/user-attachments/assets/fde5e852-3302-427d-a60d-cf3bb3459205" />
 
 ```bash
-#!/bin/bash
+#!/bin/bash![Uploading site.jpeg.jpg…]()
+
 yum update -y
 yum install -y httpd
 systemctl start httpd
