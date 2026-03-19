@@ -27,14 +27,14 @@ Configuração de um **Security Group** liberando as seguintes portas:
 
 ### 3. Provisionamento da Instância
 Lançamento de uma instância **t3.micro**. Utilize o campo **User Data** para automatizar a instalação do servidor no momento da inicialização:
-
 📸 Evidências do Laboratório
 Configuração da Instância EC2:
-Abaixo, o registro da instância Servidor-Web-Desafio ativa e configurada no console AWS.
-<img width="868" height="381" alt="aws" src="https://github.com/user-attachments/assets/db5f2ee7-a865-4b9f-ba45-46e47aabcd7c" />
+Abaixo, o registro da instância Servidor-Web-Desafio (ID: 00016956059512) ativa e configurada no console AWS.
+
 Aplicação Web Online:
 Visualização da página projetos.html rodando com sucesso através do IP público da instância.
-<img width="1077" height="677" alt="site" src="https://github.com/user-attachments/assets/cdc53f8f-97dc-4932-bec9-2ea52fc43df9" />
+<img width="468" height="375" alt="imag" src="https://github.com/user-attachments/assets/82bc13e9-5c9c-4b26-9f82-f0918e419a2f" />
+Laboratório realizado por Geane Maria como parte da transição de carreira para a área de Tecnologia da Informação.
 
 ```bash
 #!/bin/bash
