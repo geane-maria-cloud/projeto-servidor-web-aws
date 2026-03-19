@@ -36,8 +36,9 @@ systemctl enable httpd
 
 ### 📸 Evidências do Laboratório
 
-**Configuração da Instância EC2:**
+Configuração da Instância EC2:
 ![Instância AWS](aws.png)
 
-**Aplicação Web Online:**
+Aplicação Web Online:
 ![Site Funcionando](site.png)
+systemctl enable httpd
